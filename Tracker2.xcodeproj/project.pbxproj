@@ -11,6 +11,8 @@
 		2BEE520B2592B4DB008703DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEE520A2592B4DB008703DD /* ContentView.swift */; };
 		2BEE520D2592B4DE008703DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE520C2592B4DE008703DD /* Assets.xcassets */; };
 		2BEE52102592B4DE008703DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE520F2592B4DE008703DD /* Preview Assets.xcassets */; };
+		2BEE521A2592B612008703DD /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE52182592B612008703DD /* tips.json */; };
+		2BEE521B2592B612008703DD /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BEE52192592B612008703DD /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2BEE520C2592B4DE008703DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BEE520F2592B4DE008703DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BEE52112592B4DE008703DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BEE52182592B612008703DD /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		2BEE52192592B612008703DD /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				2BEE52082592B4DB008703DD /* Tracker2App.swift */,
 				2BEE520A2592B4DB008703DD /* ContentView.swift */,
 				2BEE520C2592B4DE008703DD /* Assets.xcassets */,
+				2BEE52192592B612008703DD /* locations.json */,
+				2BEE52182592B612008703DD /* tips.json */,
 				2BEE52112592B4DE008703DD /* Info.plist */,
 				2BEE520E2592B4DE008703DD /* Preview Content */,
 			);
@@ -128,6 +134,8 @@
 			files = (
 				2BEE52102592B4DE008703DD /* Preview Assets.xcassets in Resources */,
 				2BEE520D2592B4DE008703DD /* Assets.xcassets in Resources */,
+				2BEE521B2592B612008703DD /* locations.json in Resources */,
+				2BEE521A2592B612008703DD /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
